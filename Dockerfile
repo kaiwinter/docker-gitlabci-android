@@ -18,5 +18,3 @@ RUN echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all -
 RUN wget --quiet --output-document=gradle.zip https://services.gradle.org/distributions/gradle-4.1-bin.zip
 RUN unzip -q gradle.zip
 ENV ANDROID_HOME $PWD/android-sdk-linux
-
-CMD [""]
